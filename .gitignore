@@ -2,5 +2,4 @@
 *.iml
 .idea/
 /src/main/webapp/resources
-.gitattributes
 
