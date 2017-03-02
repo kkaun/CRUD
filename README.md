@@ -37,8 +37,7 @@ pure-Servlet - приложений на Payara/Glassfish - есть что ср
 библиотеки под него, так же **Bootstrap** и **jQuery**. + Tiny Validator для JSON.
 
 
-
-![alt tag] (http://tinypic.com/r/fwhw6d/9)
+![alt tag] (https://raw.githubusercontent.com/Strugacky/CRUD/edit/master/CRUD.png)
 
 
 
