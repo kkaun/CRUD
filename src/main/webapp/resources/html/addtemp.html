@@ -1,0 +1,22 @@
+
+<div>
+
+    <div class="modal-header">
+        <h3 class="modal-title">Добавить нового пользователя</h3>
+    </div>
+
+    <div class="modal-body">
+
+        <form name="inputForm" sf-schema="userSchema" sf-form="userForm" sf-model="userModel"></form>
+
+    </div>
+
+    <div class="modal-footer">
+
+        <button type="submit" class="btn btn-info pull-right btn-lg btn-block"
+                ng-click="ok()" ng-disabled="(inputForm.$invalid)" >Принять</button>
+        <button type="button" class="btn btn-danger pull-right btn-lg btn-block" ng-click="cancel()" >Отмена</button>
+
+    </div>
+
+</div>

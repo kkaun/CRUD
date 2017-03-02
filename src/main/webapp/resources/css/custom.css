@@ -1,0 +1,210 @@
+
+
+body{
+    background-color: #faf2cc;
+}
+
+
+/* Header ----------------------------------------------------------------------------------------------------------- */
+
+.motoHolder{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-weight: 900;
+}
+
+#headLogo{
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+
+
+
+/* Main Container --------------------------------------------------------------------------------------------------- */
+
+.panelsH{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.userFormHolder, .paginationBlockHolder{
+    display: inline-block;
+}
+
+.opContainer{
+    margin-top: 90px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: 100px;
+}
+
+.navbar-fixed-top{
+    position: absolute;
+}
+
+.userFormHolder{
+    float: left;
+    border-radius: 7px;
+    border: 10px groove beige;
+    background: #FFD67A;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin-left: -20px;
+}
+
+#userFormFixH{
+    margin-left: -15px;
+}
+
+.hline{
+    margin-left: -28px;
+}
+
+.userFormList{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.userForm{
+    margin-left: -25px;
+    height: 55px;
+}
+
+.control-label{
+    margin-top: -10px;
+}
+
+.paginationBlockHolder{
+    float: right;
+    border: 10px groove beige;
+    border-radius: 7px;
+    background: #FFE3A5;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.grid{
+    background: lightgray;
+    border-radius: 2px;
+    border: double darkgray;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+
+.pagination-div {
+    display: inline-block;
+}
+
+.dataAccessibilityIndicator {
+    margin-left: 90px;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.15;
+    font-size: 20px;
+    font-weight: 900;
+    width: 80%;
+}
+
+.helpBox{
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.helpBox ul{
+    margin-left: -18px;
+}
+
+
+
+/* Footer ----------------------------------------------------------------------------------------------------------- */
+
+.footer{
+    height: 45px;
+    background: transparent;
+}
+
+
+.cd-top, .backToTopHolder{
+    margin-left: -120px;
+}
+
+.toTopBtn{
+    background: #DDA62D;
+    margin-top: 0;
+    position: absolute;
+    width: 70%;
+    height: 45px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.toTopBtn:focus {
+    outline:0;
+}
+
+.glyphicon-chevron-up{
+    font-size: 30px;
+}
+
+.footer-bar{
+    margin-top: 18px;
+}
+
+.backToTopHolder{
+    text-align: center;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+
+    visibility: visible;
+    opacity: 1;
+}
+.cd-top.cd-fade-out {
+
+    opacity: .5;
+}
+.no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+}
+
+
+/* Media ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    footer, .navbar-fixed-bottom{
+        display: none !important;
+    }
+
+    .userFormHolder{
+        margin-top: 20px;
+        margin-bottom: 25px;
+        margin-left: 150px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
