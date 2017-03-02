@@ -38,6 +38,7 @@ pure-Servlet - приложений на Payara/Glassfish - есть что ср
 
 
 
+![alt tag] (http://tinypic.com/r/fwhw6d/9)
 
 
 
